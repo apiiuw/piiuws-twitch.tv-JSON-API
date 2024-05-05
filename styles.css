@@ -1,0 +1,78 @@
+/*$background: #34495e;
+$font: #bdc3c7;*/
+
+html {
+  height: 100%;
+}
+
+html body,
+.footer,
+#online,
+#all,
+#onlineColor {
+  background: #34495e;
+  color: #bdc3c7;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+}
+
+.footer {
+  position: fixed;
+  height: 4%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+div.online,
+.interface,
+.eachResult,
+.logo,
+#online,
+#onlineColor,
+#all {
+  border-radius: 10px;
+}
+
+span.displayName {
+  margin-left: 10px;
+  color: #bdc3c7;
+  font-weight: bold;
+}
+
+div.online,
+#onlineColor {
+  background: #2980b9;
+}
+
+.interface {
+  background: #2c3e50;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10%;
+}
+
+.container {
+  background: #34495e;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.eachResult {
+  background: #34495e;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.status {
+  margin: 5px;
+}
+
+.logo {
+  margin: 2px 2px 2px 5px;
+}
+
+#dot {
+  font-size: 0.25em;
+}
